@@ -3,7 +3,7 @@ title: "2023-05-12"
 date: 2023-05-15T22:37:43-04:00
 ---
 
-Mandy had only been to the boat while it was on land, so this was the first time for her seeing it in the water. We took the LIRR from Penn Station to Port Washington and then walked down to the Town Dock.
+We took the LIRR from Penn Station to Port Washington and then walked down to the Town Dock.
 
 {{< figure src = "port_washington.jpg" caption = "Town Dock" width = 400 >}}
 
