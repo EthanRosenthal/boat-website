@@ -1,0 +1,3 @@
+[submodule "themes/hugo-simplecss"]
+	path = themes/hugo-simplecss
+	url = git@github.com:splch/hugo-simplecss.git

@@ -1,0 +1,22 @@
+baseURL = 'https://boat.ethanrosenthal.com/'
+languageCode = 'en-us'
+title = "Ethan's Boat Site"
+theme = 'hugo-simplecss'
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = 'https://www.ethanrosenthal.com'
+  weight = 10
+[[menu.main]]
+  name = 'Boat'
+  pageRef = '/'
+  weight = 20
+[[menu.main]]
+  name = "Captain's Log"
+  pageRef = '/captains-log'
+  weight = 30
+[[menu.main]]
+  name = 'Resources'
+  pageRef = '/resources'
+  weight = 40
