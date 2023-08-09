@@ -15,7 +15,7 @@ We didn't take the boat out; instead, I had a list of things that I wanted my da
 
 - The prop shaft coupler's bolts are not seized. It'd be very bad if they were to come undone.
 
-{{< figure src = "seawater_filter.jpg" caption = "Prop shaft coupler" width = 400 >}}
+{{< figure src = "coupler.jpg" caption = "Prop shaft coupler" width = 400 >}}
 
 - I really hate not having a necessary tool when I need it. Some tools that would've been helpful today: adjustable wrench, smaller wrenches for the engine, needle nose pliers, a small socket set, and electrical tape.
 - We spent some time trying to understand the boat wiring. It's definitely a mess (see the picture in [this post]({{< ref "/captains-log/2023-06-11" >}})), but we were able to figure some things out. The clamps are connected to the solar panels. There are some old switches on a board in the starboard cockpit locker that are not doing anything anymore (although one of them was connected to the battery and had poorly electrical-taped exposed wires!). Each battery has a switch to turn on a voltage meter. These switches were off when they were flipped up, so my dad flipped them the correct way.
