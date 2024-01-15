@@ -1,5 +1,6 @@
 ---
 title: "Captain's Captain"
+slug: "captains-captain"
 date: 2023-08-04
 ---
 

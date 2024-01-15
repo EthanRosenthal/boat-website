@@ -1,5 +1,6 @@
 ---
 title: "Party Time"
+slug: "party-time"
 date: 2023-08-18
 ---
 
