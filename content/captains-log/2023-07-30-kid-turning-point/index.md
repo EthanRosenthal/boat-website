@@ -1,5 +1,6 @@
 ---
 title: "Kid Turning Point"
+slug: "kid-turning-point"
 date: 2023-07-30
 ---
 

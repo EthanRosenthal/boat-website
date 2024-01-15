@@ -1,5 +1,6 @@
 ---
 title: "First Friends"
+slug: "first-friends"
 date: 2023-07-28
 ---
 

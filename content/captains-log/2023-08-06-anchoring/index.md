@@ -1,5 +1,6 @@
 ---
 title: "Anchoring"
+slug: "anchoring"
 date: 2023-08-06
 ---
 

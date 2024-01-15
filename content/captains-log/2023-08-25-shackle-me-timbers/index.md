@@ -1,5 +1,6 @@
 ---
 title: "Shackle Me Timbers"
+slug: "shackle-me-timbers"
 date: 2023-08-25
 ---
 
