@@ -19,3 +19,7 @@
 
 # Go workspace file
 go.work
+
+# Add these to git if build times start to take too long
+resources/
+
