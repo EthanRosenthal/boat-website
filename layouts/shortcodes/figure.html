@@ -1,0 +1,67 @@
+{{/*
+This here is a copy of the standard hugo figure shortcode template
+https://github.com/gohugoio/hugo/blob/911bc60a7ab739885908fdfe49d1578531940909/tpl/tplimpl/embedded/templates/shortcodes/figure.html
+
+I have built upon this template in a terrible attempt to automatically resize
+images so that
+(1) They end up significantly reduced in size (i.e. bytes) compared to their
+original size.
+(2) They still maintain some quality.
+
+I do this as follows:
+
+1. If the user provides either the standard "width" or "height" keywords, then
+2. Use the image.Resize command to resize the image to $resizeFactor times
+the width and/or height.
+3. Set the actual image width and height to be the provided width and height.
+
+$resizeFactor is currently set to 3. I tried leaving it set to 1, but the image
+quality looked terrible. At 3, the image file size drops by around 10X compared to
+whatever came out of my phone by default.
+*/}}
+
+{{ $image := .Page.Resources.GetMatch (printf "**%s*" (.Get "src")) }}
+{{ $resizeFactor := 3 }}
+
+{{- if or (.Get "width") (.Get "height") -}}
+
+{{ $resizeWidth := "" }}
+{{- if (.Get "width" ) -}}
+{{ $resizeWidth = string (mul $resizeFactor (.Get "width")) }}
+{{- end -}}
+
+{{ $resizeHeight := "" }}
+{{- if (.Get "height" ) -}}
+{{ $resizeHeight = string (mul $resizeFactor (.Get "height")) }}
+{{- end -}}
+
+{{ $image = $image.Resize (printf "%sx%s" $resizeWidth $resizeHeight) }}
+
+{{- end -}}
+<figure{{ with .Get "class" }} class="{{ . }}" {{ end }}>
+    {{- if .Get "link" -}}
+    <a href="{{ .Get " link" }}" {{ with .Get "target" }} target="{{ . }}" {{ end }}{{ with .Get "rel" }} rel="{{ . }}"
+        {{ end }}>
+        {{- end -}}
+        <img src="{{ $image.RelPermalink }}" {{- if or (.Get "alt" ) (.Get "caption" ) }} alt="{{ with .Get " alt" }}{{
+            . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}" {{- end -}} {{- with .Get "width" }}
+            width="{{ . }}" {{ end -}} {{- with .Get "height" }} height="{{ . }}" {{ end -}} {{- with .Get "loading" }}
+            loading="{{ . }}" {{ end -}} /><!-- Closing img tag -->
+        {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+    <figcaption>
+        {{ with (.Get "title") -}}
+        <h4>{{ . }}</h4>
+        {{- end -}}
+        {{- if or (.Get "caption") (.Get "attr") -}}<p>
+            {{- .Get "caption" | markdownify -}}
+            {{- with .Get "attrlink" }}
+            <a href="{{ . }}">
+                {{- end -}}
+                {{- .Get "attr" | markdownify -}}
+                {{- if .Get "attrlink" }}</a>{{ end }}
+        </p>
+        {{- end }}
+    </figcaption>
+    {{- end }}
+    </figure>
