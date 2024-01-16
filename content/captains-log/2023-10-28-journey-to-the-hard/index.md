@@ -14,7 +14,7 @@ The weather ended up being absolutely incredible. 80 degrees and sunny at the en
 
 We took the 7:17 AM train out to Port Washington and got underway by around 9:45 AM. We left Manhasset Bay, and hung a left. 
 
-{{< figure src = "crew.jpg" caption = "Benjamin and me right after setting off" width = 400 >}}
+{{< figure src = "crew.jpg" caption = "Benjamin and me right after setting off" width = 600 >}}
 
 As we sailed along, I noticed the sewage smell again whenever we went over a wave. I ended up closing one of the seacocks near the head, and the smell went away. In the moment, I convinced myself that this made logical sense, but I didn't have much time to think carefully about this. I was just thankful the smell had stopped.
 
