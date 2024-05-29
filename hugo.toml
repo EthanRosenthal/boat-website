@@ -2,6 +2,7 @@ baseURL = 'https://boat.ethanrosenthal.com/'
 languageCode = 'en-us'
 title = "Ethan's Boat Site"
 theme = 'hugo-simplecss'
+enableEmoji = true
 
 [menu]
 [[menu.main]]
