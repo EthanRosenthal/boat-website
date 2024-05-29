@@ -4,6 +4,10 @@ title = "Ethan's Boat Site"
 theme = 'hugo-simplecss'
 enableEmoji = true
 
+[Author]
+    name = "Ethan Rosenthal"
+    email = "hello@ethanrosenthal.com"
+
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -21,3 +25,7 @@ enableEmoji = true
   name = 'Resources'
   pageRef = '/resources'
   weight = 40
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 50
