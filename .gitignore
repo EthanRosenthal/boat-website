@@ -21,6 +21,6 @@
 go.work
 
 # Add these to git if build times start to take too long
-resources/
+# resources/
 
 .hugo_build.lock
