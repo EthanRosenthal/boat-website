@@ -40,6 +40,8 @@ We drank some wine and then got ready for bed. I unrolled the sleeping bags for 
 
 ...Until the kid woke up the moment the sun appeared at 5:30AM. I can't complain, though -- he made it through the night! Anything's easy compared to when he was a newborn.
 
+{{< figure src = "cabin.jpg" caption = "The cabin" width = 600 >}}
+
 ## A Second Motor To Remember
 
 Sunday morning, we ate bagels. I vowed, for the second time, to never eat Everything bagels on the boat, since the seeds get everywhere (we're in New York, though, how can I resist?). We blew up a raft and a paddleboard and futzed around in the water. We took the dinghy to shore and dropped off trash. But before the day wore on too far, we set out for the return trip.
