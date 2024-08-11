@@ -1,6 +1,6 @@
 baseURL = 'https://boat.ethanrosenthal.com/'
 languageCode = 'en-us'
-title = "Ethan's Boat Site"
+title = "Peregrine"
 theme = 'hugo-simplecss'
 enableEmoji = true
 timeout = '60s'
