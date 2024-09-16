@@ -34,7 +34,19 @@ title: "Pictures"
 
 ## Cabin
 
+{{< figure src = "aft_cabin.JPG" caption = "View of the cabin looking aft" width = 800 >}}
+
+{{< figure src = "forward_cabin.JPG" caption = "View of the cabin looking forward from the cockpit" width = 800 >}}
+
+{{< figure src = "galley.JPG" caption = "The galley" width = 800 >}}
+
 {{< figure src = "wfb.JPG" caption = "Work From Boat setup" width = 800 >}}
+
+{{< figure src = "forward_vberth.JPG" caption = "Looking forward to the V-Berth" width = 600 >}}
+
+{{< figure src = "port_head.JPG" caption = "The head and hanging locker" width = 600 >}}
+
+{{< figure src = "starboard_head_sink.JPG" caption = "The sink opposite the head" width = 600 >}}
 
 {{< figure src = "vberth.JPG" caption = "Forward view of the V-Berth" width = 600 >}}
 
