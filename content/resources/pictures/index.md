@@ -8,10 +8,15 @@ title: "Pictures"
 {{< figure src = "side_motoring.JPG" caption = "Motoring on 7/4/2024" width = 600 >}}
 
 {{< rawhtml >}}
-<video width=100% controls>
-  <source src="pan_720.mp4" type="video/mp4" >
-  Your browser does not support the video tag.
-</video> 
+<figure>
+  <video width=75% controls>
+    <source src="pan_720.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption>
+    <p>Approaching on the launch</p>
+  </figcaption>
+</figure> 
 {{< /rawhtml >}}
 
 {{< figure src = "spreader_view.JPG" caption = "View from the spreaders" width = 600 >}}
@@ -21,10 +26,15 @@ title: "Pictures"
 {{< figure src = "travelift.JPG" caption = "In the travelift" width = 600 >}}
 
 {{< rawhtml >}}
-<video width=100% controls>
-  <source src="haul_out_720.mp4" type="video/mp4" >
-  Your browser does not support the video tag.
-</video> 
+<figure>
+  <video width=75% controls>
+    <source src="haul_out_720.mp4" type="video/mp4" >
+    Your browser does not support the video tag.
+  </video> 
+  <figcaption>
+    <p>Annual haul</p>
+  </figcaption>
+</figure>
 {{< /rawhtml >}}
 
 {{< figure src = "ladder.JPG" caption = "Me, a couple weeks after buying Peregrine" width = 600 >}}
@@ -48,7 +58,7 @@ title: "Pictures"
 
 {{< figure src = "starboard_head_sink.JPG" caption = "The sink opposite the head" width = 600 >}}
 
-{{< figure src = "vberth.JPG" caption = "Forward view of the V-Berth" width = 600 >}}
+{{< figure src = "vberth2.jpg" caption = "The V-Berth" width = 600 >}}
 
 {{< figure src = "vberth_me.JPG" caption = "Aft view of the V-Berth" width = 800 >}}
 
