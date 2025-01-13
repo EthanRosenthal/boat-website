@@ -1,7 +1,7 @@
 ---
 title: "Let's shave step by step"
 slug: lets-shave-step-by-step
-date: 2024-11-25
+date: 2025-01-12
 ---
 
 In most STEM classes, you do not get full credit for solely providing the correct answer to a homework or test question; you must show your work. Explaining your thought process reveals whether you actually understand what's going on.
